@@ -30,6 +30,26 @@ header {
     margin-top: 50px;
     margin-right: 15%;
     margin-left: 15%;
+    padding-top: 1%;
+    padding-left: 2%;
+}
 
+.new-task {
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.today {
+    background-color: white;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.upcoming {
+    background-color: white;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
