@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -16,12 +15,13 @@ header {
     padding-top: 10px;
 }
 
-.logo {
-    vertical-align: middle;
+.logo { 
+    vertical-align: bottom;
 }
 
-.title {
+.title { /*Non sono riuscito ad allineare il titolo al logo come volevo*/
     display: inline-block;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar {
@@ -30,8 +30,28 @@ header {
     margin-top: 50px;
     margin-right: 15%;
     margin-left: 15%;
-    padding-top: 1%;
-    padding-left: 2%;
+    padding-top: 2%;
+    padding-left: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.add-task-button {
+    background-color: #47ADF1;
+    width: 80px;
+    height: 30px;
+    border: #47ADF1;
+    border-radius: 10px;
+    color: white;
+}
+
+.add-section-button {
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    color: lightgray;
 }
 
 .new-task {
@@ -39,17 +59,99 @@ header {
     margin-top: 5px;
     margin-right: 15%;
     margin-left: 15%;
+    padding-left: 50px;
 }
 
 .today {
     background-color: white;
     margin-right: 15%;
     margin-left: 15%;
+    padding-left: 50px;
 }
 
 .upcoming {
     background-color: white;
     margin-right: 15%;
     margin-left: 15%;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 40px solid white;
 }
 
+.downarrow {
+    font-size: small;
+}
+
+.checkmark { /*Non sono riuscito ad ottenere un cerchio perfetto*/
+    color: green;
+    background-color:white;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.cross { /*Non sono riuscito ad ottenere un cerchio perfetto*/
+    color: red;
+    background-color:white;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+h2 {
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.editorial {
+    background-color: #45ABEA;
+    color: white;
+    border-radius: 20px;
+    font-size: x-small;
+    border: 10px solid #45ABEA;
+}
+
+.q1-goals {
+    background-color: #9C72E4;
+    color: white;
+    border-radius: 20px;
+    font-size: x-small;
+    border: 10px solid #9C72E4;
+}
+
+.recruiting {
+    background-color: #5CBCA4;
+    color: white;
+    border-radius: 20px;
+    font-size: x-small;
+    border: 10px solid #5CBCA4;
+}
+
+.mobile {
+    background-color: #F28D35;
+    color: white;
+    border-radius: 20px;
+    font-size: x-small;
+    border: 10px solid #F28D35;
+}
+
+.website {
+    background-color: #D863A1;
+    color: white;
+    border-radius: 20px;
+    font-size: x-small;
+    border: 10px solid #D863A1;
+}
+
+.sales {
+    background-color: #B0C926;
+    color: white;
+    border-radius: 20px;
+    font-size: x-small;
+    border: 10px solid #B0C926;
+}
